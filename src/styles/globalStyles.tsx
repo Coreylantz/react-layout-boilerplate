@@ -3,15 +3,9 @@ import { createGlobalStyle } from 'styled-components'
 // import CarroisGothicSCRegularWoff from 'assets/fonts/CarroisGothicSCRegular.woff'
 // import CarroisGothicSCRegularWoff2 from 'assets/fonts/CarroisGothicSCRegular.woff2'
 
-import { COLORS, MEASURE, SCALE } from './variables'
+import { COLORS, MEASURE, BORDER, SCALE } from './variables'
 
 export const GlobalStyles = createGlobalStyle`
-  /* @font-face {
-    font-display: fallback;
-    font-family: "Carrois Gothic";
-    src: url() format("woff2"),
-        url() format("woff");
-  } */
 
   :root {  
     font-size: calc(1rem + 0.4vw); 
@@ -44,5 +38,12 @@ export const GlobalStyles = createGlobalStyle`
 
   img {
     max-width: 100%;
+  }
+
+  button {
+    background-color: inherit;
+    border-color: inherit;
+    border: ${BORDER.thick} solid;
+    padding: ${SCALE['s-1']};
   }
 `
