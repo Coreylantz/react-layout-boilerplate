@@ -1,9 +1,8 @@
 import { Box } from 'components/layouts/Box'
+import { IBoxProps } from 'components/layouts/Box/Box'
 import { Stack } from 'components/layouts/Stack'
 
-interface ICardProps extends React.HTMLAttributes<HTMLDivElement> {}
-
-export const Card = ({ children, ...rest }: ICardProps) => {
+export const Card = ({ children, ...rest }: IBoxProps) => {
     return (
         <Box {...rest}>
             <Stack>{children}</Stack>

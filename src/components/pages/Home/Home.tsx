@@ -137,7 +137,7 @@ export const Home = () => {
                                         hasHeadings={true}
                                     />
                                     <Imposter>
-                                        <Card>
+                                        <Card invert>
                                             <FakeContentBlock
                                                 numberOfparagraphs={1}
                                                 hasHeadings={true}
