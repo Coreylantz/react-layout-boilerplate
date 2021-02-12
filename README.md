@@ -1,5 +1,7 @@
 # React Layout Boilerplate
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b99244a1-e7f2-4dc2-970a-92f9235a214f/deploy-status)](https://app.netlify.com/sites/awesome-gates-eea2ed/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
