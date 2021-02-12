@@ -1,0 +1,9 @@
+<!-- This is loaded into App and should be referenced in Icon -->
+<svg width="0" height="0" class="hidden">
+  <symbol stroke="currentColor" viewBox="0 0 10 10" id="hamburger">
+    <path d="M0 1h10M0 5h10M0 9h10"></path>
+  </symbol>
+  <symbol stroke="currentColor" stroke-width="2" viewBox="0 0 10 10" id="close">
+    <path d="M1 1l8 8m0-8L1 9"></path>
+  </symbol>
+</svg>
